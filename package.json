@@ -1,0 +1,9 @@
+{
+  "name": "http-for-serverless",
+  "version": "0.0.1",
+  "description": "HTTP tools for Serverless",
+  "main": "lib",
+  "repository": "git@github.com:kerihenare/http-for-serverless.git",
+  "author": "Keri Henare <keri@henare.co.nz>",
+  "license": "MIT"
+}
