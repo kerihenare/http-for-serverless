@@ -8,7 +8,7 @@ Inspired by [Express](https://expressjs.com) and [https://github.com/dougmoscrop
 
 ### JSON
 ```js
-const http = require('http-for-serverless');
+var http = require('http-for-serverless');
 
 module.exports.endpoint = http((req, req) => {
   res.json({
@@ -19,7 +19,7 @@ module.exports.endpoint = http((req, req) => {
 
 ### HTML
 ```js
-const http = require('http-for-serverless');
+var http = require('http-for-serverless');
 
 module.exports.endpoint = http((req, req) => {
   res.send(`
@@ -36,9 +36,10 @@ module.exports.endpoint = http((req, req) => {
 ```
 
 ### React
+*react & react-dom are required*
 ```js
-const http = require('http-for-serverless');
-const View = require('./views/View');
+var http = require('http-for-serverless');
+var View = require('./views/View');
 
 module.exports.endpoint = http((req, req) => {
   // <DOCTYPE html> is automatically prepended to the rendered component
