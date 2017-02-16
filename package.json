@@ -1,6 +1,6 @@
 {
   "name": "http-for-serverless",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "HTTP tools for Serverless",
   "main": "lib",
   "repository": "git@github.com:kerihenare/http-for-serverless.git",
@@ -12,6 +12,8 @@
   "devDependencies": {
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "semistandard": "^9.2.1"
   },
   "peerDependencies": {

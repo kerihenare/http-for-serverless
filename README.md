@@ -2,6 +2,8 @@
 
 Express-like helper for Lambda http events.
 
+***_A WORK IN PROGRESS_***
+
 Inspired by [Express](https://expressjs.com) and [https://github.com/dougmoscrop/serverless-http](serverless-http).
 
 ## Examples
